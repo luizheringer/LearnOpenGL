@@ -18,7 +18,7 @@ public:
           std::string fragmentCode;
           std::ifstream vShaderFile;
           std::ifstream fShaderFile;
-          // ensures ifstream objects can throw exceptions:
+          
           vShaderFile.exceptions(std::ifstream::badbit);
           fShaderFile.exceptions(std::ifstream::badbit);
           try
